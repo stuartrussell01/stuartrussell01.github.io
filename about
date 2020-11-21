@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>We Build PC</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/webuildpc.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+<body>
+
+<!-- Navigation -->
+<section>
+	<div class="topnav" id="myTopnav">
+	<a href="home.html" c>Home</a>
+	<a href="reviews.html">Reviews</a>
+	<a href="about.html" class="active">About</a>
+		
+		<div class="dropdown">
+		<button class="dropbtn">Builds
+		  <i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content">
+		  <a href="starter.html">Starter</a>
+		  <a href="gaming.html">Gaming</a>
+		  <a href="streaming.html">Streaming</a>
+		  <a href="vr.html">VR</a>
+	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+	  </a>
+		</div>
+	</div>
+</div>
+	<script>
+	function myFunction() {
+	  var x = document.getElementById("myTopnav");
+	  if (x.className === "topnav") {
+		x.className += " responsive";
+	  } else {
+		x.className = "topnav";
+	  }
+	}
+</script>
+</section>	
+<!-- Hero -->
+<header2>
+	
+	<p id="p2" class="headtext"> <b><strong>ABOUT US</strong></b> <br>Learn about our company!</p>
+	
+</header2>
+
+	
+<!-- Review -->
+<section>
+	
+	<div class="about1">
+
+		<p></p>
+
+	</div>
+	
+</section>
+	
+<!-- Reviews -->
+<section>
+	
+	<div class="abouttext">
+		<p class="abouttxt1">
+			We Build PC was founded in 2019 by Guy Fieri. The aim was to create a website that was super easy and would offer top tier PC builds at relatively affordable prices.
+			<br><br>
+			We are based in Toronto Canada.
+		</p>
+	</div>
+	
+</section>
+	
+
+</body>
+	
+<footer>
+
+	<script>
+		function validateForm() {
+		  var x = document.forms["myForm"]["fname"].value;
+		  if (x == "") {
+			alert("Name must be filled out");
+			return false;
+		  }
+		}
+	</script>
+
+	<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+	  <b><large>SIGN UP</large></b> <input type="text" name="fname">
+	  <input type="submit" value="Submit">
+	</form>
+	
+</footer>
+	
+</html>
